@@ -1,9 +1,42 @@
-.modal{
-    display: none;
-    
+.modal {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: auto;
+  transform: translate(-50%, -50%);
+  background: #00000090;
+  opacity: 0.8;
+}
+
+.show {
+  display: block;
+}
+
+.modal-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 50px 50px 50px;
+}
+
+.modal-content button{
+  width: max-content;
+  justify-self: center;
+  align-self: center;
+}
+
+.modal-content h2{
+  text-align: center;
+  color: #fff;
 }
 
 
-.show{
-    display: block; 
-}
+
+
+
+
+
+
+
